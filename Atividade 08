@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.Write("Digite um número inteiro: ");
+    float num1 = float.Parse(Console.ReadLine());
+
+    if (num1 > 0)
+    { Console.Write("O número é positivo");
+    }
+    else if (num1 < 0){
+      Console.Write("O número é negativo");
+    }
+    else{
+      Console.Write("O número é zero");
+    }
+
+  }
+}
