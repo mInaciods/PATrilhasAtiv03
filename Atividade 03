@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.Write("Digite um número: ");
+    float num1 = float.Parse(Console.ReadLine());
+    Console.Write("Digite um número: ");
+    float num2 = float.Parse(Console.ReadLine());
+
+    if (num1 == num2)
+    { Console.Write("Os números são iguais");
+    }
+    else{
+      Console.Write("Os números não são iguais");
+    }
+
+  }
+}
