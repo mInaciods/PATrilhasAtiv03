@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.Write("Digite um número: ");
+    float num1 = float.Parse(Console.ReadLine());
+    Console.Write("Digite um número: ");
+    float num2 = float.Parse(Console.ReadLine());
+
+    if (num1 < num2)
+    { Console.Write("O primeiro número é menor que o segundo");
+    }
+    else{
+      Console.Write("O segundo é menor do que o primeiro número");
+    }
+
+  }
+}
